@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cafe Restaurant menu</h1>
+      <div class="row">
+        <div class="square square1" onclick="redirectToPizzaPage()">
+          <span class="title">Pizza</span>
+        </div>
+        <div class="square square2" onclick="redirectToCoffeePage()">
+          <span class="title">Coffee</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="square square3" onclick="redirectToCakePage()">
+          <span class="title">Cake</span>
+        </div>
+        <div class="square square4" onclick="redirectToPastaPage()">
+          <span class="title">Pasta</span>
+        </div>
+      </div>
+      <footer>
+        <p>Made with ❤️ by Awmir & AmirR</p>
+      </footer>
+    </div>
+  </body>
+
+  <script>
+    function redirectToPizzaPage() {
+      window.location.href = "Menus/Pizza/index.html";
+    }
+    function redirectToCoffeePage() {
+      window.location.href = "Menus/Coffee/index.html";
+    }
+    function redirectToCakePage() {
+      window.location.href = "Menus/Cake/index.html";
+    }
+    function redirectToPastaPage() {
+      window.location.href = "Menus/Pasta/index.html";
+    }
+  </script>
+</html>
